@@ -2,7 +2,7 @@ package model
 
 import "github.com/jinzhu/gorm"
 
-//modelo de comentario
+//modelo de base de datos comentario
 type Comment struct {
 	gorm.Model
 	UserID   uint      `json:"userid"`
