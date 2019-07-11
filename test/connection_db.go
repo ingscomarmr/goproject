@@ -1,13 +1,13 @@
-package main
+package test
 
 import (
 	"fmt"
 	"log"
 
-	"./configuration"
+	"../configuration"
 )
 
-func main() {
+func ConnectionDbTest() {
 	log.Println("Iniciar conexion de base datos")
 	conDb := configuration.GetConnectionDb()
 	defer conDb.Close() //con el defer cerramos la conexion
