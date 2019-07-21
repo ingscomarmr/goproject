@@ -7,7 +7,8 @@ import (
 	"../configuration"
 )
 
-func ConnectionDbTest() {
+func main() {
+
 	log.Println("Iniciar conexion de base datos")
 	conDb := configuration.GetConnectionDb()
 	defer conDb.Close() //con el defer cerramos la conexion

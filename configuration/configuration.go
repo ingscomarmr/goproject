@@ -18,6 +18,8 @@ type Configuration struct {
 	Password string
 	DataBase string
 	Dialect  string
+	PathPublicKeyRsa string
+	PathPrivateKeyRsa string
 }
 
 //Obtiene la configuracion del archivo config.json

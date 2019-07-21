@@ -4,6 +4,7 @@
     "user":"omarmr",
     "password":"Omar.2019",
     "database":"goprojectdb",
-    "dialect":"mysql"
-
+    "dialect":"mysql",
+    "pathPublicKeyRsa": "./keys/key_private.rsa",
+    "pathPrivateKeyRsa": "./keys/key_public.rsa"
 }

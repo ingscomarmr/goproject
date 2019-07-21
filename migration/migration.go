@@ -14,6 +14,6 @@ func MigrateDb() {
 	conDb.CreateTable(&model.User{})
 	conDb.CreateTable(&model.Comment{})
 	//agregamos las columnas ids y sus nombres
-	conDb.CreateTable(&model.Vote{}).AddUniqueIndex("comment_id_user_id_unique", "comment_id","user_id")
+	conDb.CreateTable(&model.Vote{}).AddUniqueIndex("comment_id_user_id_unique", "comment_id", "user_id")
 
 }
